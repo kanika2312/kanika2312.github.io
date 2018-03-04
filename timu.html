@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1">
+    <title>Kanika Gupta Portfolio</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+    <!--[if lt IE 9]>
+    <script src="js/respond-1.1.0.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/html5element.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+
+    <div class="row" style="margin-top: 40px;">
+       <div class="col-xs-12 col-lg-12 col-md-12">
+            <iframe class="center-block" width="560" height="315" src="https://www.youtube.com/embed/YJ0tUHGv6pQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+       </div> 
+    </div>
+
+    <div class ="row">
+        <div class="col-xs-12 col-lg-12 col-md-12">
+            <img src="img/TIMU FINAL.png" class="img-fluid" alt="Responsive image" id="main_img">
+        </div>
+    </div>
+
+    <div class="col-xs-12 col-lg-12 col-md-12" style="padding-top: 150px;">
+        <img src="img/Preloader_3.gif" id="loader_img" class="img-responsive center-block">
+    </div>
+
+   
+
+
+    
+    
+    </div>
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>  
+    <script type="text/javascript">
+        $('#main_img').hide();
+        $('#loader_img').show();
+        // main image loaded ?
+        $('#main_img').on('load', function(){
+          $('#loader_img').hide();
+          $('#main_img').show();
+
+            // var millisecondsToWait = 300;
+            //     setTimeout(function() {
+            //         $('#loader_img').hide();
+            //         $('#main_img').show();
+                    
+            //     }, millisecondsToWait);
+        });
+    </script>
+   
+
+</body>
+
+</html>
