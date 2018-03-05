@@ -50,19 +50,13 @@
         $('#main_img').hide();
         $('#video').hide();
         $('#loader_img').show();
-        
-        $('#window').on('load', function(){
+
+        $( window ).load(function() {
           $('#loader_img').hide();
           $('#main_img').show();
           $('#video').show();
-
-            // var millisecondsToWait = 300;
-            //     setTimeout(function() {
-            //         $('#loader_img').hide();
-            //         $('#main_img').show();
-                    
-            //     }, millisecondsToWait);
         });
+        
     </script>
    
 
