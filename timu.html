@@ -24,7 +24,7 @@
 
     <div class="row" style="margin-top: 40px;">
        <div class="col-xs-12 col-lg-12 col-md-12">
-            <iframe class="center-block" width="560" height="315" src="https://www.youtube.com/embed/YJ0tUHGv6pQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+            <iframe id="video" class="center-block" width="560" height="315" src="https://www.youtube.com/embed/YJ0tUHGv6pQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
        </div> 
     </div>
 
@@ -48,11 +48,12 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>  
     <script type="text/javascript">
         $('#main_img').hide();
+        $('#video').hide();
         $('#loader_img').show();
-        // main image loaded ?
         $('#main_img').on('load', function(){
           $('#loader_img').hide();
           $('#main_img').show();
+          $('#video').show();
 
             // var millisecondsToWait = 300;
             //     setTimeout(function() {
