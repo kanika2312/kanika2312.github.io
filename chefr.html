@@ -37,7 +37,7 @@
     <div class="row">
         <h1 class="text-center" id="play"> Play with prototype here </h1>
         <div class="col-xs-12 col-lg-12 col-md-12 " style="padding-top: 20px;">
-             <iframe class="center-block" width="438" height="930" src="https://invis.io/XEFXNKLT34P" frameborder="0" allowfullscreen id="invision"></iframe>
+             <iframe class="center-block" width="408" height="900" src="https://invis.io/XEFXNKLT34P" frameborder="0" allowfullscreen id="invision"></iframe>
         </div>
        
     </div>
@@ -54,7 +54,7 @@
         $('#invision').hide();
         $('#loader_img').show();
         // main image loaded ?
-        $('#main_img').on('load', function(){
+        $(window).on('load', function(){
           $('#loader_img').hide();
           $('#main_img').show();
           $('#play').show();
