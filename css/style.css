@@ -708,79 +708,7 @@ a.contact_btn:hover {
 }
 
 
-/* Portfolio
----------------------------------*/
 
-
-#Portfolio {
-    padding: 60px 0px;
-}
-
-.Portfolio-nav {
-    padding: 0;
-    margin: 0 0 45px 0;
-    list-style: none;
-    text-align: center;
-}
-
-.Portfolio-nav li {
-    margin: 0 10px;
-    display: inline;
-}
-
-.Portfolio-nav li a {
-    display: inline-block;
-    padding: 10px 22px;
-    font-size: 12px;
-    line-height: 20px;
-    color: #222222;
-    border-radius: 4px;
-    background: #f7f7f7;
-    margin-bottom: 5px;
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-}
-
-.Portfolio-nav li a:hover {
-    background: #ED5441;
-    color: #fff;
-    text-decoration: none;
-}
-
-.portfolioContainer {
-    margin: 0 auto;
-    padding-left: 15px;
-    width: auto !important;
-}
-
-.Portfolio-box {
-    text-align: center;
-    width: 350px;
-    overflow: hidden;
-    float: left;
-    padding: 12px 0px;
-}
-
-.Portfolio-box img {
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-}
-
-.Portfolio-box img:hover {
-    opacity: 0.6;
-}
-
-.Portfolio-nav li a.current {
-    background: #ED5441;
-    color: #fff;
-    text-decoration: none;
-}
-
-img {
-    max-width: 100%;
-}
 
 /* no transition on .isotope container */
 
@@ -1403,15 +1331,7 @@ transition: all .3s;
 
 
 	
-/* Portfolio */	
-	
-.container.portfolio_title {
-    padding-bottom: 0px;
-}
 
-#portfolio {
-    padding: 60px 0 40px;
-}
 
 
 
@@ -1523,31 +1443,7 @@ padding:80px 0 60px;
     position: relative;
 }
 
-.portfolio-item {
-    padding: 0;
-    position: relative;
-    overflow: hidden;
-}
 
-.portfolio-item .portfolio_img {
-    overflow: hidden;
-    display: block;
-    position: relative;
-}
-
-.portfolio-item .portfolio_img img {
-    width: 100%;
-    height: auto;
-}
-
-.portfolio-item:hover .item_overlay {
-    opacity: 10;
-    transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -webkit-transition: all 0.4s ease 0s;
-    -ms-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-}
 
 .item_overlay {
     width: 100%;

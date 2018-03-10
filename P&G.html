@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1">
+    <title>Kanika Gupta Portfolio</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+    <!--[if lt IE 9]>
+    <script src="js/respond-1.1.0.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/html5element.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+
+    
+
+    <div class ="row">
+        <div class="col-xs-12 col-lg-12 col-md-12" style="padding-top: 40px">
+            <img src="img/sink1.png" class="img-fluid" alt="Responsive image" id="main_img">
+            <div class="col-md-12 text-center" style="padding-top: 30px"> 
+                <a id="btninfo" class="btn btn-primary" href="pdf/1.pdf" role="button">View Current Journey Map</a> 
+            </div>
+        </div>
+    </div>
+       
+    <div class ="row">
+        <div class="col-xs-12 col-lg-12 col-md-12" style="padding-top: 40px">
+            <img src="img/sink2.png" class="img-fluid" alt="Responsive image" id="main_img1">
+
+            <div class="col-md-12 text-center" style="padding-top: 30px"> 
+            <a id="btninfo1" class="btn btn-primary" href="pdf/2.pdf" role="button">View Journey Map (Solution)</a> 
+        </div>
+    </div>
+
+    <div class="col-xs-12 col-lg-12 col-md-12" style="padding-top: 150px;">
+        <img src="img/Preloader_3.gif" id="loader_img" class="img-responsive center-block">
+    </div>
+
+    
+    </div>
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>  
+    <script type="text/javascript">
+        $('#main_img').hide();
+        $('#main_img1').hide();
+        $('#play').hide();
+        $('#btninfo').hide();
+        $('#btninfo1').hide();
+        $('#loader_img').show();
+        
+        // main image loaded ?
+        $( window ).load(function() {
+             $('#loader_img').hide();
+              $('#main_img').show();
+               $('#main_img1').show();
+              $('#play').show();
+              $('#btninfo').show();
+               $('#btninfo1').show();
+        });
+    </script>
+   
+
+</body>
+
+</html>
