@@ -169,3 +169,7 @@
     transform: rotate(90deg);
     background-color: #212529
 }
+
+.badge-primary{
+	background: blue;
+}
