@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1">
+    <title>Kanika Gupta Portfolio</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+    <!--[if lt IE 9]>
+    <script src="js/respond-1.1.0.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/html5element.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+
+
+    <div class ="row">
+        <div class="col-xs-12 col-lg-12 col-md-12" style="padding-top: 40px">
+            <img src="img/daily1.png" class="img-fluid" alt="Responsive image" id="main_img">
+        </div>
+    </div>
+
+    <div class ="row">
+        <div class="col-xs-12 col-lg-12 col-md-12">
+            <img src="img/dailyui1.gif" class="img-fluid center-block" alt="Responsive image" id="dailyui1">
+        </div>
+    </div>
+
+    <div class ="row">
+        <div class="col-xs-12 col-lg-12 col-md-12" style="padding-top: 40px">
+            <img src="img/daily2.png" class="img-fluid" alt="Responsive image" id="main_img2">
+        </div>
+    </div>
+
+    <div class ="row">
+        <div class="col-xs-6 col-lg-6 col-md-6" style=" padding-left: 200px; padding-top: 0px;">
+            <p id ="dailytext1" style="font-size:18px">The power of artificial intelligence and image detection, emerging camera technology can be leveraged to simplify the credit/debit card scanning process.This eliminates the need to fill long forms which takes up a lot of time and hinders the user experience. User-errors are prevented. This also reduces the number of clicks to reach the end goal.</p>
+        </div>
+        <div class="col-xs-6 col-lg-6 col-md-6">
+            <img src="img/dailyui2.gif" class="img-fluid center-block" alt="Responsive image" id="dailyui2" style="width: 275px;display: block;margin-left: 100px;" row"=""></div>
+        <div>
+            
+        </div>
+    </div>
+
+    <div class ="row" style="padding-top: 100px">
+        <div class="col-xs-6 col-lg-6 col-md-6" style=" padding-left: 200px; padding-top: 0px;">
+            <p id ="dailytext2" style="font-size:18px">Treat your cards like a deck of cards and shuffle your way to the desired card.</p>
+        </div>
+        <div class="col-xs-6 col-lg-6 col-md-6">
+            <img src="img/daily2.gif" class="img-fluid center-block" alt="Responsive image" id="daily2" style="width: 275px;display: block;margin-left: 100px;" row"=""></div>
+        <div>
+            
+        </div>
+    </div>
+
+    <div class="col-xs-12 col-lg-12 col-md-12" style="padding-top: 150px;">
+        <img src="img/Preloader_3.gif" id="loader_img" class="img-responsive center-block">
+    </div>
+
+    
+    
+    </div>
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>  
+    <script type="text/javascript">
+        $('#main_img').hide();
+        $('#main_img2').hide();
+        $('#dailyui1').hide();
+        $('#dailytext1').hide();
+        $('#dailytext2').hide();
+        $('#dailyui2').hide();
+        $('#daily2').hide();
+
+        $('#loader_img').show();
+
+        $( window ).load(function() {
+          $('#loader_img').hide();
+          $('#main_img').show();
+          $('#main_img2').show();
+          $('#dailytext1').show();
+        $('#dailytext2').show();
+          $('#dailyui1').show();
+          $('#daily2').show();
+          $('#dailyui2').show();
+
+        });
+        
+    </script>
+   
+
+</body>
+
+</html>
